@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+
+label{
+    font-family: 'Poppins';
+}
+
+h2{
+    font-size: 20px;
+}
+
+.form{
+    background: gray;
+    width: 50%;
+    height: 70%;
+    transform: translate(-5%, -5%);
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #069;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1{
+    background: green;
+}
+
+input, select{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+}
+
+input{
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 5px;
+    height: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow:  violet(0, 0, 0, 0.5);
+
+}
+
+#estado{
+    height: 30px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 80px;
+    height: 35px;   
+}
+
+
+input[type="submit"]:hover{
+    background: #069;
+    color: white;
+}
